@@ -1,0 +1,95 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap'); */
+  @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;500&display=swap');
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing:border-box;
+  font-family: 'Mukta', sans-serif;
+  font-weight: 300;
+ 
+   background-color: burlywood; 
+   /* background-image: url("/home/ujjwalsingh/Desktop/qzz/img/mc1.png");
+   background-repeat: no-repeat;
+ */
+}
+.main-div{
+ min-height: 80vh;
+  height: auto;
+ width:   auto;
+  display: grid;
+ place-items: center ;  
+ background-color: aliceblue; 
+ /* background-image: url("/home/ujjwalsingh/Desktop/qzz/img/mc1.png")  ;
+ background-repeat: no-repeat;
+ image-resolution:100%;
+ image-orientation: fill ; */
+ 
+}
+.inner-div{
+  width: 50vh;
+  padding: 10px 20px;
+  border-radius: 1rem;
+  box-shadow: 0rem 1rem 1rem -0.7rem;
+   /* background-image: url("/home/ujjwalsingh/Desktop/qzz/img/mc2.png");  */
+}
+.inner-div h2{
+  font-size :50px;
+  margin: .5rem 0 1rem 0; 
+  font-weight: 300rem;
+}
+.inner-div li{
+  font-size:medium;
+  margin: .5rem 0rem;
+  list-style: none;
+  
+}
+input{
+  cursor: pointer;
+}
+#submit,.btn{
+  padding: .5rem 3rem ;
+  outline: none;
+  font-size: large;
+  font-size: 20px;
+  display: block;
+    margin: auto;
+    border: none;
+    border-radius: 20rem;
+    text-transform: capitalize;
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    background-color: rgb(187, 49, 49);
+    margin-top: 2rem;
+}
+#submit:hover{
+  background-color: rgb(54, 17, 17);
+}
+#showScore{
+  background-color: grey;
+  margin-top: 2rem;
+  padding: 1rem 2rem ;
+  box-shadow: 0rem 1rem 1rem -0.7rem;
+}
+.scoreArea{
+    display :none;
+}
+#showScore h3{
+  text-align: center;
+  font-size: medium;
+}
+#showScore .btn{
+  margin-top: 1rem;
+  background-color: rgb(36, 74, 145);
+  color: rgb(255, 255, 255);
+  margin: auto;
+    border: none;
+    border-radius: 10rem;
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+#showScore .btn:hover{
+  background-color: rgb(103, 168, 224);
+}
+.sub{
+  display: n;
+}
