@@ -15,7 +15,7 @@ const qbd=[
         d:"saitama",
         ans:"ans4",
     },    {
-        question:"best waifu",
+        question:"best female character",
         a:"nico robin",
         b:"mitsuri",
         c:"nami",
@@ -29,7 +29,7 @@ const qbd=[
         d:"ender man",
         ans:"ans1",
     },    {
-        question:"most pevert character in anime verse",
+        question:"best side character in anime verse",
         a:"master Roshi",
         b:"prev sage",
         c:"goku",
